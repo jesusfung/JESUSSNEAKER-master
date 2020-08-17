@@ -1,0 +1,152 @@
+body{
+    background-color: gainsboro;
+}
+ul,h1,input{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+}
+input,button{
+    border: 0;
+    outline: none;
+}
+.w{
+     width: 1190px; /*版心为1190px */
+     margin: 0 auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+ header{ /*头部 */
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    box-shadow: 0 20px 20px 20px black;
+}
+.w::after{ /*清除浮动*/
+    content: '';
+    display: table;
+    clear: both;
+}
+header .w .hd_pic{
+    height: 80px;
+}
+header .w .hd_pic a img{
+    height: 80px;
+    width: 450px;
+}
+header .w .hd_nav{
+    line-height: 60px;
+}
+header .w ul li .nav-link{
+    color: #4f8a8b;
+    transition: color .2s;
+}
+header .w ul li .nav-link:hover{
+    color: darkgrey;
+}
+.dropdown_item{
+    color: black;
+    padding:5px 5px ;
+    height: 40px;
+    line-height: 30px;
+}
+.dropdown_item:hover{
+    color: black;
+}
+.dropdown_item:active{
+    background-color: #4f8a8b;
+}
+.space{
+    width: 1px;
+    height: 12px;
+    background-color: #eee;
+    margin: 35px 12px 0;
+}
+.middle{
+    height: 50px;
+    margin-top: 60px;
+}
+.navitems{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.btn-group-lg>.btn, .btn-lg{
+    padding: .5rem 2rem;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    margin-top: 50px;
+    padding: 40px 40px 0px 40px;
+    box-shadow: 0px -20px 20px 20px black;
+}
+footer .footer-top{
+    height: 160px;
+    margin-bottom: 10px;
+}
+.footer-top-1,.footer-top-2,.footer-top-3{
+    width: 180px;
+    height: 170px;
+    font-size: 14px;
+    float: left;
+    color: white;
+}
+footer .footer-top ul li{
+    width: 150px;
+    height: 25px;
+}
+footer .footer-top ul li .lg{
+    color: white;
+    transition: color .2s;
+    text-decoration: none;
+}
+footer .footer-top ul li a:hover{
+    color: darkgrey;
+}
+.footer-top-4{
+    width: 180px;
+    height: 170px;
+    float: right;
+}
+footer .footer-top ul li .sm{
+    color: darkgray;
+    font-size: 12px;
+    transition: color .2s;
+    text-decoration: none;
+}
+footer .footer-top ul li .sm:hover{
+    color:white;
+}
+footer .footer-bottom{
+    padding-top: 50px;
+    border-top: darkgray solid 1px;
+    color: #eee;
+}
+footer .footer-bottom .footer-bottom-1{
+    width: 400px;
+    float: left;
+}
+footer .footer-bottom .footer-bottom-2{
+    width: 500px;
+    float: left;
+}
+footer .footer-bottom .lg{
+    color: white;
+    transition: color .2s;
+    text-decoration: none;
+}
+footer .footer-bottom .lg:hover{
+    color: darkgray;
+}
+.sm{
+    color: darkgray;
+    font-size: 12px;
+}
